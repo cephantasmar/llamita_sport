@@ -12,9 +12,10 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+
   form: FormGroup = new FormGroup({
-    username: new FormControl(''),
-    password: new FormControl(''),
+    username: new FormControl('username'),
+    password: new FormControl('password'),
   });
 
   submit() {
